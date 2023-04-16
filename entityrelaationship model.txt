@@ -1,0 +1,19 @@
+Entities:
+
+Gymnasium
+Member
+Session
+Coach
+Attributes:
+
+Gymnasium: Name, Addresse, TelephoneNumber
+Member: ID-member, LastName, FirstName, Address, DateOfBirth, Gender
+Session: Type of Sport, Schedule, Maximum Capacity (20)
+Coach: LastName, FirstName, Age, Specialty
+Relationships:
+
+A Gymnasium can have multiple Sessions
+A Member can register for a Session at a Gymnasium
+A Session can have multiple Members
+A Session is led by one or two Coaches
+A Coach can lead multiple Sessions
